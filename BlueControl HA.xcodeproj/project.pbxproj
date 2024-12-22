@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04EB2E052D18A6B600AEADC9 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 04EB2E042D18A6B100AEADC9 /* README.MD */; };
+		04F7632A2D18B1BE00CEA284 /* MQTTNIO in Frameworks */ = {isa = PBXBuildFile; productRef = 04F763292D18B1BE00CEA284 /* MQTTNIO */; };
+		36725B70FC57D640CFAAE8BC /* Pods_BlueControl_HA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F449170B603778A25513136 /* Pods_BlueControl_HA.framework */; };
+		91CD5A9EC89FA43F1A29629B /* Pods_BlueControl_HATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3D6C905A9D9A684D8625B4 /* Pods_BlueControl_HATests.framework */; };
+		9DAC0243B2D783F74013DFA8 /* Pods_BlueControl_HA_BlueControl_HAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FAC6A45A6E6D3F6C1A4522 /* Pods_BlueControl_HA_BlueControl_HAUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		04EB2DE82D18A5BF00AEADC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +32,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02FAC6A45A6E6D3F6C1A4522 /* Pods_BlueControl_HA_BlueControl_HAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueControl_HA_BlueControl_HAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EB2DD62D18A5BE00AEADC9 /* BlueControl HA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlueControl HA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EB2DE72D18A5BF00AEADC9 /* BlueControl HATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlueControl HATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EB2DF12D18A5BF00AEADC9 /* BlueControl HAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlueControl HAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB2E042D18A6B100AEADC9 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		0E2ABC63980CD7AD12FAA7DD /* Pods-BlueControl HA-BlueControl HAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueControl HA-BlueControl HAUITests.release.xcconfig"; path = "Target Support Files/Pods-BlueControl HA-BlueControl HAUITests/Pods-BlueControl HA-BlueControl HAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F449170B603778A25513136 /* Pods_BlueControl_HA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueControl_HA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38266016EA0D2EC6D01852DE /* Pods-BlueControl HATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueControl HATests.debug.xcconfig"; path = "Target Support Files/Pods-BlueControl HATests/Pods-BlueControl HATests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4E88D2DB6D949B8CB8BDFF /* Pods-BlueControl HA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueControl HA.release.xcconfig"; path = "Target Support Files/Pods-BlueControl HA/Pods-BlueControl HA.release.xcconfig"; sourceTree = "<group>"; };
+		7D3D6C905A9D9A684D8625B4 /* Pods_BlueControl_HATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueControl_HATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA69A7570F35730DE35CF0E /* Pods-BlueControl HA-BlueControl HAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueControl HA-BlueControl HAUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlueControl HA-BlueControl HAUITests/Pods-BlueControl HA-BlueControl HAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A430FCB982DC102EA578D458 /* Pods-BlueControl HATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueControl HATests.release.xcconfig"; path = "Target Support Files/Pods-BlueControl HATests/Pods-BlueControl HATests.release.xcconfig"; sourceTree = "<group>"; };
+		ECF5B26801002883F426DAA2 /* Pods-BlueControl HA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueControl HA.debug.xcconfig"; path = "Target Support Files/Pods-BlueControl HA/Pods-BlueControl HA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36725B70FC57D640CFAAE8BC /* Pods_BlueControl_HA.framework in Frameworks */,
+				04F7632A2D18B1BE00CEA284 /* MQTTNIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CD5A9EC89FA43F1A29629B /* Pods_BlueControl_HATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DAC0243B2D783F74013DFA8 /* Pods_BlueControl_HA_BlueControl_HAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +97,13 @@
 		04EB2DCD2D18A5BE00AEADC9 = {
 			isa = PBXGroup;
 			children = (
+				04EB2E042D18A6B100AEADC9 /* README.MD */,
 				04EB2DD82D18A5BE00AEADC9 /* BlueControl HA */,
 				04EB2DEA2D18A5BF00AEADC9 /* BlueControl HATests */,
 				04EB2DF42D18A5BF00AEADC9 /* BlueControl HAUITests */,
 				04EB2DD72D18A5BE00AEADC9 /* Products */,
+				8138EF47E9117A0A1E6B67F4 /* Pods */,
+				38C03527FEB43C63F47D3A69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +117,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		38C03527FEB43C63F47D3A69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F449170B603778A25513136 /* Pods_BlueControl_HA.framework */,
+				02FAC6A45A6E6D3F6C1A4522 /* Pods_BlueControl_HA_BlueControl_HAUITests.framework */,
+				7D3D6C905A9D9A684D8625B4 /* Pods_BlueControl_HATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8138EF47E9117A0A1E6B67F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECF5B26801002883F426DAA2 /* Pods-BlueControl HA.debug.xcconfig */,
+				6D4E88D2DB6D949B8CB8BDFF /* Pods-BlueControl HA.release.xcconfig */,
+				9EA69A7570F35730DE35CF0E /* Pods-BlueControl HA-BlueControl HAUITests.debug.xcconfig */,
+				0E2ABC63980CD7AD12FAA7DD /* Pods-BlueControl HA-BlueControl HAUITests.release.xcconfig */,
+				38266016EA0D2EC6D01852DE /* Pods-BlueControl HATests.debug.xcconfig */,
+				A430FCB982DC102EA578D458 /* Pods-BlueControl HATests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04EB2DFB2D18A5BF00AEADC9 /* Build configuration list for PBXNativeTarget "BlueControl HA" */;
 			buildPhases = (
+				C2E967D92A17D4C362DD1C49 /* [CP] Check Pods Manifest.lock */,
 				04EB2DD22D18A5BE00AEADC9 /* Sources */,
 				04EB2DD32D18A5BE00AEADC9 /* Frameworks */,
 				04EB2DD42D18A5BE00AEADC9 /* Resources */,
+				355D31B7740F08B9DBED3619 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +161,6 @@
 				04EB2DD82D18A5BE00AEADC9 /* BlueControl HA */,
 			);
 			name = "BlueControl HA";
-			packageProductDependencies = (
-			);
 			productName = "BlueControl HA";
 			productReference = 04EB2DD62D18A5BE00AEADC9 /* BlueControl HA.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04EB2DFE2D18A5BF00AEADC9 /* Build configuration list for PBXNativeTarget "BlueControl HATests" */;
 			buildPhases = (
+				96471B40ABACA26F10D847DC /* [CP] Check Pods Manifest.lock */,
 				04EB2DE32D18A5BF00AEADC9 /* Sources */,
 				04EB2DE42D18A5BF00AEADC9 /* Frameworks */,
 				04EB2DE52D18A5BF00AEADC9 /* Resources */,
@@ -134,8 +183,6 @@
 				04EB2DEA2D18A5BF00AEADC9 /* BlueControl HATests */,
 			);
 			name = "BlueControl HATests";
-			packageProductDependencies = (
-			);
 			productName = "BlueControl HATests";
 			productReference = 04EB2DE72D18A5BF00AEADC9 /* BlueControl HATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04EB2E012D18A5BF00AEADC9 /* Build configuration list for PBXNativeTarget "BlueControl HAUITests" */;
 			buildPhases = (
+				305F1914DAECCA3619176352 /* [CP] Check Pods Manifest.lock */,
 				04EB2DED2D18A5BF00AEADC9 /* Sources */,
 				04EB2DEE2D18A5BF00AEADC9 /* Frameworks */,
 				04EB2DEF2D18A5BF00AEADC9 /* Resources */,
+				55CADE2E6F9B42D36EF5F8FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +206,6 @@
 				04EB2DF42D18A5BF00AEADC9 /* BlueControl HAUITests */,
 			);
 			name = "BlueControl HAUITests";
-			packageProductDependencies = (
-			);
 			productName = "BlueControl HAUITests";
 			productReference = 04EB2DF12D18A5BF00AEADC9 /* BlueControl HAUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -195,6 +242,9 @@
 			);
 			mainGroup = 04EB2DCD2D18A5BE00AEADC9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				04F763282D18B17800CEA284 /* XCRemoteSwiftPackageReference "mqtt-nio" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 04EB2DD72D18A5BE00AEADC9 /* Products */;
 			projectDirPath = "";
@@ -212,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EB2E052D18A6B600AEADC9 /* README.MD in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +281,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305F1914DAECCA3619176352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueControl HA-BlueControl HAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		355D31B7740F08B9DBED3619 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueControl HA/Pods-BlueControl HA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueControl HA/Pods-BlueControl HA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueControl HA/Pods-BlueControl HA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55CADE2E6F9B42D36EF5F8FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueControl HA-BlueControl HAUITests/Pods-BlueControl HA-BlueControl HAUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueControl HA-BlueControl HAUITests/Pods-BlueControl HA-BlueControl HAUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueControl HA-BlueControl HAUITests/Pods-BlueControl HA-BlueControl HAUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96471B40ABACA26F10D847DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueControl HATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E967D92A17D4C362DD1C49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueControl HA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04EB2DD22D18A5BE00AEADC9 /* Sources */ = {
@@ -306,7 +460,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -369,7 +523,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -389,16 +543,20 @@
 		};
 		04EB2DFC2D18A5BF00AEADC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF5B26801002883F426DAA2 /* Pods-BlueControl HA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "BlueControl HA/BlueControl_HA.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R8A48G2XKZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlueControl-HA-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Cette application nécessite un accès au Bluetooth pour interagir avec les périphériques Bluetooth.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -416,16 +574,20 @@
 		};
 		04EB2DFD2D18A5BF00AEADC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4E88D2DB6D949B8CB8BDFF /* Pods-BlueControl HA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "BlueControl HA/BlueControl_HA.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R8A48G2XKZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlueControl-HA-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Cette application nécessite un accès au Bluetooth pour interagir avec les périphériques Bluetooth.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -443,6 +605,7 @@
 		};
 		04EB2DFF2D18A5BF00AEADC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38266016EA0D2EC6D01852DE /* Pods-BlueControl HATests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -461,6 +624,7 @@
 		};
 		04EB2E002D18A5BF00AEADC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A430FCB982DC102EA578D458 /* Pods-BlueControl HATests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -479,6 +643,7 @@
 		};
 		04EB2E022D18A5BF00AEADC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA69A7570F35730DE35CF0E /* Pods-BlueControl HA-BlueControl HAUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -495,6 +660,7 @@
 		};
 		04EB2E032D18A5BF00AEADC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2ABC63980CD7AD12FAA7DD /* Pods-BlueControl HA-BlueControl HAUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -549,6 +715,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04F763282D18B17800CEA284 /* XCRemoteSwiftPackageReference "mqtt-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adam-fowler/mqtt-nio";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04F763292D18B1BE00CEA284 /* MQTTNIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F763282D18B17800CEA284 /* XCRemoteSwiftPackageReference "mqtt-nio" */;
+			productName = MQTTNIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04EB2DCE2D18A5BE00AEADC9 /* Project object */;
 }

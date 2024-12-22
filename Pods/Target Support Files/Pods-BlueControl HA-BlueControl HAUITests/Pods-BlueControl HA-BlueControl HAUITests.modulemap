@@ -1,0 +1,6 @@
+framework module Pods_BlueControl_HA_BlueControl_HAUITests {
+  umbrella header "Pods-BlueControl HA-BlueControl HAUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
