@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		04EB2DE82D18A5BF00AEADC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EB2DCE2D18A5BE00AEADC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EB2DD52D18A5BE00AEADC9;
+			remoteInfo = "BlueControl HA";
+		};
+		04EB2DF22D18A5BF00AEADC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EB2DCE2D18A5BE00AEADC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EB2DD52D18A5BE00AEADC9;
+			remoteInfo = "BlueControl HA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EB2DD62D18A5BE00AEADC9 /* BlueControl HA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlueControl HA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB2DE72D18A5BF00AEADC9 /* BlueControl HATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlueControl HATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB2DF12D18A5BF00AEADC9 /* BlueControl HAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlueControl HAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04EB2DD82D18A5BE00AEADC9 /* BlueControl HA */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BlueControl HA";
+			sourceTree = "<group>";
+		};
+		04EB2DEA2D18A5BF00AEADC9 /* BlueControl HATests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BlueControl HATests";
+			sourceTree = "<group>";
+		};
+		04EB2DF42D18A5BF00AEADC9 /* BlueControl HAUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BlueControl HAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EB2DD32D18A5BE00AEADC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB2DE42D18A5BF00AEADC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB2DEE2D18A5BF00AEADC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EB2DCD2D18A5BE00AEADC9 = {
+			isa = PBXGroup;
+			children = (
+				04EB2DD82D18A5BE00AEADC9 /* BlueControl HA */,
+				04EB2DEA2D18A5BF00AEADC9 /* BlueControl HATests */,
+				04EB2DF42D18A5BF00AEADC9 /* BlueControl HAUITests */,
+				04EB2DD72D18A5BE00AEADC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EB2DD72D18A5BE00AEADC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EB2DD62D18A5BE00AEADC9 /* BlueControl HA.app */,
+				04EB2DE72D18A5BF00AEADC9 /* BlueControl HATests.xctest */,
+				04EB2DF12D18A5BF00AEADC9 /* BlueControl HAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EB2DD52D18A5BE00AEADC9 /* BlueControl HA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EB2DFB2D18A5BF00AEADC9 /* Build configuration list for PBXNativeTarget "BlueControl HA" */;
+			buildPhases = (
+				04EB2DD22D18A5BE00AEADC9 /* Sources */,
+				04EB2DD32D18A5BE00AEADC9 /* Frameworks */,
+				04EB2DD42D18A5BE00AEADC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04EB2DD82D18A5BE00AEADC9 /* BlueControl HA */,
+			);
+			name = "BlueControl HA";
+			packageProductDependencies = (
+			);
+			productName = "BlueControl HA";
+			productReference = 04EB2DD62D18A5BE00AEADC9 /* BlueControl HA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EB2DE62D18A5BF00AEADC9 /* BlueControl HATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EB2DFE2D18A5BF00AEADC9 /* Build configuration list for PBXNativeTarget "BlueControl HATests" */;
+			buildPhases = (
+				04EB2DE32D18A5BF00AEADC9 /* Sources */,
+				04EB2DE42D18A5BF00AEADC9 /* Frameworks */,
+				04EB2DE52D18A5BF00AEADC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EB2DE92D18A5BF00AEADC9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04EB2DEA2D18A5BF00AEADC9 /* BlueControl HATests */,
+			);
+			name = "BlueControl HATests";
+			packageProductDependencies = (
+			);
+			productName = "BlueControl HATests";
+			productReference = 04EB2DE72D18A5BF00AEADC9 /* BlueControl HATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04EB2DF02D18A5BF00AEADC9 /* BlueControl HAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EB2E012D18A5BF00AEADC9 /* Build configuration list for PBXNativeTarget "BlueControl HAUITests" */;
+			buildPhases = (
+				04EB2DED2D18A5BF00AEADC9 /* Sources */,
+				04EB2DEE2D18A5BF00AEADC9 /* Frameworks */,
+				04EB2DEF2D18A5BF00AEADC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EB2DF32D18A5BF00AEADC9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04EB2DF42D18A5BF00AEADC9 /* BlueControl HAUITests */,
+			);
+			name = "BlueControl HAUITests";
+			packageProductDependencies = (
+			);
+			productName = "BlueControl HAUITests";
+			productReference = 04EB2DF12D18A5BF00AEADC9 /* BlueControl HAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EB2DCE2D18A5BE00AEADC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					04EB2DD52D18A5BE00AEADC9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					04EB2DE62D18A5BF00AEADC9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 04EB2DD52D18A5BE00AEADC9;
+					};
+					04EB2DF02D18A5BF00AEADC9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 04EB2DD52D18A5BE00AEADC9;
+					};
+				};
+			};
+			buildConfigurationList = 04EB2DD12D18A5BE00AEADC9 /* Build configuration list for PBXProject "BlueControl HA" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EB2DCD2D18A5BE00AEADC9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04EB2DD72D18A5BE00AEADC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EB2DD52D18A5BE00AEADC9 /* BlueControl HA */,
+				04EB2DE62D18A5BF00AEADC9 /* BlueControl HATests */,
+				04EB2DF02D18A5BF00AEADC9 /* BlueControl HAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EB2DD42D18A5BE00AEADC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB2DE52D18A5BF00AEADC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB2DEF2D18A5BF00AEADC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EB2DD22D18A5BE00AEADC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB2DE32D18A5BF00AEADC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB2DED2D18A5BF00AEADC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EB2DE92D18A5BF00AEADC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EB2DD52D18A5BE00AEADC9 /* BlueControl HA */;
+			targetProxy = 04EB2DE82D18A5BF00AEADC9 /* PBXContainerItemProxy */;
+		};
+		04EB2DF32D18A5BF00AEADC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EB2DD52D18A5BE00AEADC9 /* BlueControl HA */;
+			targetProxy = 04EB2DF22D18A5BF00AEADC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04EB2DF92D18A5BF00AEADC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04EB2DFA2D18A5BF00AEADC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04EB2DFC2D18A5BF00AEADC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BlueControl HA/BlueControl_HA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8A48G2XKZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.romaing.BlueControl-HA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04EB2DFD2D18A5BF00AEADC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BlueControl HA/BlueControl_HA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8A48G2XKZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.romaing.BlueControl-HA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04EB2DFF2D18A5BF00AEADC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8A48G2XKZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.romaing.BlueControl-HATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueControl HA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlueControl HA";
+			};
+			name = Debug;
+		};
+		04EB2E002D18A5BF00AEADC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8A48G2XKZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.romaing.BlueControl-HATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueControl HA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlueControl HA";
+			};
+			name = Release;
+		};
+		04EB2E022D18A5BF00AEADC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8A48G2XKZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.romaing.BlueControl-HAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BlueControl HA";
+			};
+			name = Debug;
+		};
+		04EB2E032D18A5BF00AEADC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8A48G2XKZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.romaing.BlueControl-HAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "BlueControl HA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EB2DD12D18A5BE00AEADC9 /* Build configuration list for PBXProject "BlueControl HA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB2DF92D18A5BF00AEADC9 /* Debug */,
+				04EB2DFA2D18A5BF00AEADC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EB2DFB2D18A5BF00AEADC9 /* Build configuration list for PBXNativeTarget "BlueControl HA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB2DFC2D18A5BF00AEADC9 /* Debug */,
+				04EB2DFD2D18A5BF00AEADC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EB2DFE2D18A5BF00AEADC9 /* Build configuration list for PBXNativeTarget "BlueControl HATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB2DFF2D18A5BF00AEADC9 /* Debug */,
+				04EB2E002D18A5BF00AEADC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EB2E012D18A5BF00AEADC9 /* Build configuration list for PBXNativeTarget "BlueControl HAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB2E022D18A5BF00AEADC9 /* Debug */,
+				04EB2E032D18A5BF00AEADC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EB2DCE2D18A5BE00AEADC9 /* Project object */;
+}
